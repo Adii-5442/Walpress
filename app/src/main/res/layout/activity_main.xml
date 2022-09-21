@@ -7,7 +7,6 @@
     android:background="#0E0C0C"
     tools:context=".MainActivity">
 
-
     <ImageView
         android:id="@+id/HomeBg"
         android:layout_width="wrap_content"
@@ -18,25 +17,38 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/_0867426" />
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/_d1068deada298883da9d1f9b9eae776" />
 
     <TextView
         android:id="@+id/welcomeText"
-        android:layout_width="256dp"
-        android:layout_height="471dp"
+        android:layout_width="262dp"
+        android:layout_height="476dp"
         android:fontFamily="@font/amaranth_bold"
-        android:paddingTop="5px"
-        android:text="Are you Annoyed of Choosing \n the right Walpaper\n for your Device ?"
+        android:paddingTop="5dp"
+        android:shadowColor="#D1CBCB"
+        android:text="ARE YOU ANNOYED OF CHOOSING \n THE RIGHT WALPAPER \n FOR YOUR DEVICE ?"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         android:textColor="#E3D7D7"
         android:textSize="48sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.273"
+        app:layout_constraintHorizontal_bias="0.29"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.175" />
+        app:layout_constraintVertical_bias="0.176" />
 
-
+    <ImageView
+        android:id="@+id/arrowRight"
+        android:layout_width="69dp"
+        android:layout_height="63dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/welcomeText"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.863"
+        app:srcCompat="@drawable/arrow_24_512" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
